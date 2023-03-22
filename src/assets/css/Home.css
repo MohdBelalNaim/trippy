@@ -1,0 +1,123 @@
+.section-one-container{
+    height: 100vh;
+    background-image: url('../images/12.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section-one-title{
+    font-size: 40px;
+    font-weight:bold;
+    color: white;
+}
+
+.section-one-subtitle{
+    color: white;
+    font-size: 20px;
+    margin-top: 16px;
+}
+
+.section-one-button{
+    all:unset;
+    background-color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 14px 18px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.section-two-title-container{
+    padding: 26px 0px;
+}
+.section-two-title{
+    font-size: 40px;
+    font-weight: bold;
+}
+.section-two-item-title{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+.section-image{
+    width: 80%;
+    border-radius: 10px;
+}
+.recent-image-container{
+    height: 200px;
+}
+.recent-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.recent-items{
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07), 0 2px 4px rgba(0,0,0,0.07), 0 4px 8px rgba(0,0,0,0.07), 0 8px 16px rgba(0,0,0,0.07), 0 16px 32px rgba(0,0,0,0.07), 0 32px 64px rgba(0,0,0,0.07);;
+    min-height: 400px;
+}
+.recent-title{
+    font-size: 22px;
+    font-weight: bold;
+    padding: 8px 0px;
+}
+.recent-desc{
+    font-size: 14px;
+}
+@media only screen and (max-width:600px){
+    .section-one-title{
+        font-size: 22px;
+    }
+    .section-one-subtitle{
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .section-one-button{
+        font-size: 14px;
+        padding: 10px 12px;
+    }
+    .section-image{
+        width: 100%;
+    }
+    .section-two-item-title{
+        margin-top: 10px;
+    }
+    .section-image{
+        margin-top: 20px;
+    }
+    .second-item{
+        margin-top: 20px;
+    }
+    .recent-items{
+        margin-bottom: 20px;
+        min-height: 0px;
+    }
+    .recent-title{
+        font-size: 16px;
+    }
+    .recent-desc{
+        font-size: 12px;
+    }
+    .recent-image-container{
+        height: 160px;
+    }
+    .section-two-item-title{
+        font-size: 18px;
+    }
+    .section-two-subtitle-item{
+        font-size: 12px;
+    }
+    .section-two-title{
+        font-size: 20px;
+    }
+    .section-two-subtitle{
+        font-size: 12px;
+        padding: 0px 10px;
+    }
+}

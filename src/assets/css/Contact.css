@@ -1,0 +1,26 @@
+.contact-header{
+    padding: 280px 0px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    background-image: url('../images/2.jpg');
+    background-size: cover;
+    color: white;
+    background-position: bottom;
+}
+.contact-title{
+    font-size: 30px;
+    padding: 30px 0px;
+}
+.form-input{
+    font-size: 14px;
+}
+@media only screen and (max-width:600px){
+    .contact-header{
+        font-size: 30px;
+        height: 200px;
+    }
+    .contact-title{
+        font-size: 18px;
+    }
+}
